@@ -46,7 +46,7 @@ OBJECTS_DIR   = debug
 SOURCES       = ..\Test\main.cpp 
 OBJECTS       = debug/main.o
 
-DIST          =   ..\Test\main.cpp
+DIST          =  tutoriaux.h ..\Test\main.cpp
 QMAKE_TARGET  = Test
 DESTDIR        = debug\ #avoid trailing-slash linebreak
 TARGET         = Test.exe
